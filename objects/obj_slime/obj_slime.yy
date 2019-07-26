@@ -63,7 +63,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "b55e9914-9b3e-40df-90e3-f60986c68fab",
+            "id": "bb361cbc-9d8d-4a62-9a40-299e7ceec7e5",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -73,11 +73,29 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "stackSize",
-            "varType": 1
+            "varName": "debug",
+            "varType": 3
         },
         {
-            "id": "4d88d034-e1b8-4d36-9e05-58f513b609cf",
+            "id": "1d11f2cd-2726-403f-8690-6256d0431d65",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "\"red\"",
+                "\"blue\"",
+                "\"green\""
+            ],
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"red\"",
+            "varName": "color",
+            "varType": 6
+        },
+        {
+            "id": "44a3939d-19db-495a-a4cd-10437425666a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -86,9 +104,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1\/16",
-            "varName": "transparencyStep",
-            "varType": 0
+            "value": "20",
+            "varName": "maxSize",
+            "varType": 1
         },
         {
             "id": "0d9e80ae-bdf4-4738-b0fe-d640e47ffc15",
@@ -100,9 +118,65 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "20",
             "varName": "growthDelay",
             "varType": 1
+        },
+        {
+            "id": "9a9bed2e-96a0-46de-85c6-b44067de479e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "maxSize\/2",
+            "varName": "maxFlowDelay",
+            "varType": 1
+        },
+        {
+            "id": "3a9484cd-6c34-40ca-9437-6a6ead1d6f81",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "stepCount",
+            "varType": 1
+        },
+        {
+            "id": "b55e9914-9b3e-40df-90e3-f60986c68fab",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "size",
+            "varType": 1
+        },
+        {
+            "id": "f12ac08b-e2dc-44fb-ae97-6e6a75b776f2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": ".25",
+            "varName": "minAlpha",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -1,6 +1,6 @@
 /// @description Start Spreading process
 
-stackSize = 1;
+size = 1;
 alarm[0] = growthDelay;
 
 // set font to center align for debugging

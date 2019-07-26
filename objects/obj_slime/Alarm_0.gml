@@ -1,4 +1,7 @@
 /// @description Grow stack
-stackSize++;
+if(size < maxSize){
+	size++;
+}
+
 
 alarm[0] = growthDelay;
