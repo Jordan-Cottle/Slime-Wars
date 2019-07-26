@@ -1,7 +1,4 @@
-/// @description Start Spreading process
-
-stackSize = 1;
-alarm[0] = growthDelay;
+/// @description Set debug font alignment
 
 // set font to center align for debugging
 draw_set_halign(fa_center);
