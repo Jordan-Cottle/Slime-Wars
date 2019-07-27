@@ -5,7 +5,7 @@ var layerMap = layer_tilemap_get_id("lyr_terrain");
 var tile = tilemap_get_at_pixel(layerMap, argument0, argument1);
 
 if(tile){
-	return tile * 3;	
+	return tile * 4;	
 }
 
 return 0;
