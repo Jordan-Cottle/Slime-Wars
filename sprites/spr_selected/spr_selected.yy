@@ -2,7 +2,7 @@
     "id": "83d67a59-d9ef-408d-b959-db8497b2f8d7",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_slimeSelected",
+    "name": "spr_selected",
     "For3D": false,
     "HTile": false,
     "VTile": false,

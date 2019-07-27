@@ -25,16 +25,6 @@
             "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
         },
         {
-            "id": "1ea91ae0-774d-404e-8640-5d6980f52c14",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
-        },
-        {
             "id": "2f69e33f-3600-43e3-ba77-38cfe1918475",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -43,11 +33,21 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
+        },
+        {
+            "id": "77834da8-0f09-4f38-9028-66b29ba77c15",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "febb3f99-42dc-4dc9-900c-9248d1346e71",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -118,7 +118,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "20",
+            "value": "5",
             "varName": "growthDelay",
             "varType": 1
         },
@@ -177,6 +177,38 @@
             "value": ".25",
             "varName": "minAlpha",
             "varType": 0
+        },
+        {
+            "id": "2c922da3-2543-416a-b33f-9984f6aff29a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": [
+                "spr_slimeBlue",
+                "spr_slimeGreen",
+                "spr_slimeRed"
+            ],
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 2,
+            "value": "spr_slimeBlue",
+            "varName": "sprite",
+            "varType": 6
+        },
+        {
+            "id": "10b92fe1-a725-466f-bbfb-fdb006b0276e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "selected",
+            "varType": 3
         }
     ],
     "solid": false,

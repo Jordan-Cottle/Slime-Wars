@@ -1,14 +1,14 @@
 {
-    "id": "cbd8a4db-2101-4793-8c74-34875b2f44ac",
+    "id": "342612e0-0a35-4710-80c1-643569e5d4e0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_slimeSource",
+    "name": "obj_terrain",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "febb3f99-42dc-4dc9-900c-9248d1346e71",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "8a40473f-9a32-4430-9e1e-88190b84df42",
     "visible": true
 }

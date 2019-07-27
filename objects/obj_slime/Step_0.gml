@@ -9,33 +9,37 @@ if(stepCount < flowDelay){
 
 var xDiff = 0;
 var yDiff = 0;
-while(xDiff == 0 and yDiff == 0){ // do not select own position
+
+// do not select own position
+while(xDiff == 0 and yDiff == 0){ 
 	xDiff = sprite_width * irandom_range(-1, 1);
 	yDiff = sprite_height * irandom_range(-1, 1);
 }
 
-var slime = instance_place(x+xDiff, y+yDiff, obj_slime);
+var slime = instance_place(x+xDiff, y+yDiff, obj_elevation);
 
 if (slime){
-	if (debug){
-		slime.sprite_index = spr_slimeSelected;
+	if(slime.object_index == obj_terrain){
+		return; // do nothing with terrain	
 	}
 	
-		if(slime.color == self.color){ // spread slime to same color
-			if(slime.size+1 < self.size){
-				size--;
-				slime.size++;
-			}
-		}else{ // destroy other color
+	if (debug){
+		slime.selected = true;
+	}
+	
+	if(slime.color == self.color){ // spread slime to same color
+		if(slime.size+1 < self.size){
 			size--;
-			slime.size--;
+			slime.size++;
 		}
+	}else{ // destroy other color
+		size--;
+		slime.size--;
+	}
 }else{
 	if (size > 2){
-		var slime = instance_create_layer(x+xDiff, y+yDiff, "Instances", obj_deadSlime);
-		slime.size = 1;
-		slime.color = self.color;
-		self.size--;
+		spawnSlime(x+xDiff, y+yDiff, color);
+		size--;
 	}
 }
 
