@@ -72,7 +72,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "False",
             "varName": "debug",
             "varType": 3
         },
@@ -120,20 +120,6 @@
             "resourceFilter": 1023,
             "value": "5",
             "varName": "growthDelay",
-            "varType": 1
-        },
-        {
-            "id": "9a9bed2e-96a0-46de-85c6-b44067de479e",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "maxSize\/2",
-            "varName": "maxFlowDelay",
             "varType": 1
         },
         {

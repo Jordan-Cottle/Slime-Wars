@@ -14,3 +14,5 @@ switch(color){
 }
 
 draw_self();
+
+draw_sprite(spr_selected, 0, snapToGrid(mouse_x), snapToGrid(mouse_y));

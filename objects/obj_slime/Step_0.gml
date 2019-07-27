@@ -1,28 +1,17 @@
 /// @description Look for adjacent slimes and spread to them
-var flowDelay = maxFlowDelay - size; // thicker slime flows faster
-if(stepCount < flowDelay){
-	stepCount++;
-	return;
-}else{
-	stepCount = 0;	
-}
-
 var xDiff = 0;
 var yDiff = 0;
 
-// do not select own position
-while(xDiff == 0 and yDiff == 0){ 
+// do not select own position or terrain
+while(xDiff == 0 and yDiff == 0 or !place_empty(x+xDiff, y+yDiff, obj_terrain)){ 
 	xDiff = sprite_width * irandom_range(-1, 1);
 	yDiff = sprite_height * irandom_range(-1, 1);
 }
 
-var slime = instance_place(x+xDiff, y+yDiff, obj_elevation);
+var slime = instance_place(x+xDiff, y+yDiff, obj_slime);
+
 
 if (slime){
-	if(slime.object_index == obj_terrain){
-		return; // do nothing with terrain	
-	}
-	
 	if (debug){
 		slime.selected = true;
 	}

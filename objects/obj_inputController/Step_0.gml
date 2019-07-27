@@ -9,8 +9,7 @@ if(mouse_check_button(mb_left)){
 	if(slime){
 		slime.size++;	
 	}else{
-		slime = instance_create_layer(mouse_x, mouse_y, "Instances", obj_slime);
-		slime.color = colors[selection];
+		spawnSlime(snapToGrid(mouse_x),snapToGrid(mouse_y), colors[selection]);
 	}
 }
 

@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "09ce63d1-6d1d-4f03-a29a-0890b21a0fd1",
+            "Value": {
+                "id": "c2f5b985-c22c-4060-99e0-e1541e816f0f",
+                "resourcePath": "scripts\\snapToGrid\\snapToGrid.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "19ef977f-7edf-4d43-bba0-44ca9bddb8de",
             "Value": {
                 "id": "dfc78db2-890d-454a-92c6-8686fc9074e9",
@@ -280,7 +288,8 @@
         }
     ],
     "script_order": [
-        "78c630da-65e8-44a6-a95c-de898ebaccd1"
+        "78c630da-65e8-44a6-a95c-de898ebaccd1",
+        "09ce63d1-6d1d-4f03-a29a-0890b21a0fd1"
     ],
     "tutorial": ""
 }
