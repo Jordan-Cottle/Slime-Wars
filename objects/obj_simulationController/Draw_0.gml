@@ -1,6 +1,6 @@
 /// @description Display current color selection
 
-var color = colors[selection];
+var color = global.colors[selection];
 switch(color){
 	case "red":
 		sprite_index = spr_slimeRed;

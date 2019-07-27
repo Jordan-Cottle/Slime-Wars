@@ -9,7 +9,7 @@ if(mouse_check_button(mb_left)){
 	if(slime){
 		slime.size++;	
 	}else{
-		spawnSlime(snapToGrid(mouse_x),snapToGrid(mouse_y), colors[selection]);
+		spawnSlime(snapToGrid(mouse_x),snapToGrid(mouse_y), global.colors[selection]);
 	}
 }
 

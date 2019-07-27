@@ -1,8 +1,8 @@
 {
-    "id": "febb3f99-42dc-4dc9-900c-9248d1346e71",
+    "id": "4d9f8ad2-eb5e-42e9-8273-1edf4c71869d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_elevation",
+    "name": "obj_playerOwned",
     "eventList": [
         
     ],
@@ -24,18 +24,22 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "ecea9100-15c6-4cdd-acbd-9157eaba2537",
+            "id": "d967ea3f-8aa2-47bc-bb0b-5e0f9712ac48",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
-            "listItems": null,
+            "listItems": [
+                "\"red\"",
+                "\"green\"",
+                "\"blue\""
+            ],
             "multiselect": false,
             "rangeEnabled": false,
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "height",
-            "varType": 1
+            "value": "\"red\"",
+            "varName": "color",
+            "varType": 6
         }
     ],
     "solid": false,

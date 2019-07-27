@@ -2,7 +2,7 @@
     "id": "0149f3ab-45ac-408d-8527-e81b0f52d241",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_inputController",
+    "name": "obj_simulationController",
     "eventList": [
         {
             "id": "4e4728c5-7621-4327-9c99-e85c5a78f8b3",
@@ -15,16 +15,6 @@
             "m_owner": "0149f3ab-45ac-408d-8527-e81b0f52d241"
         },
         {
-            "id": "bb7b5f28-9e7c-40fd-b53b-d75394f6a1c3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "0149f3ab-45ac-408d-8527-e81b0f52d241"
-        },
-        {
             "id": "70726d21-e99a-48d4-9d97-1a006f1fe487",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -32,6 +22,36 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
+            "m_owner": "0149f3ab-45ac-408d-8527-e81b0f52d241"
+        },
+        {
+            "id": "f67980fd-0ed1-49be-a58b-1ceb8a1c98bd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 38,
+            "eventtype": 10,
+            "m_owner": "0149f3ab-45ac-408d-8527-e81b0f52d241"
+        },
+        {
+            "id": "6a2b0997-1615-43ce-b534-4776606c67f1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 40,
+            "eventtype": 10,
+            "m_owner": "0149f3ab-45ac-408d-8527-e81b0f52d241"
+        },
+        {
+            "id": "37e3ddba-5189-4b78-8a0b-5415bf2f9815",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "0149f3ab-45ac-408d-8527-e81b0f52d241"
         }
     ],

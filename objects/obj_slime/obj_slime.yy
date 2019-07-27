@@ -47,7 +47,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "febb3f99-42dc-4dc9-900c-9248d1346e71",
+    "parentObjectId": "4d9f8ad2-eb5e-42e9-8273-1edf4c71869d",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -72,69 +72,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "False",
+            "value": "True",
             "varName": "debug",
             "varType": 3
-        },
-        {
-            "id": "1d11f2cd-2726-403f-8690-6256d0431d65",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": [
-                "\"red\"",
-                "\"blue\"",
-                "\"green\""
-            ],
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "\"red\"",
-            "varName": "color",
-            "varType": 6
-        },
-        {
-            "id": "44a3939d-19db-495a-a4cd-10437425666a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "20",
-            "varName": "maxSize",
-            "varType": 1
-        },
-        {
-            "id": "0d9e80ae-bdf4-4738-b0fe-d640e47ffc15",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "5",
-            "varName": "growthDelay",
-            "varType": 1
-        },
-        {
-            "id": "3a9484cd-6c34-40ca-9437-6a6ead1d6f81",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "stepCount",
-            "varType": 1
         },
         {
             "id": "b55e9914-9b3e-40df-90e3-f60986c68fab",
@@ -151,7 +91,7 @@
             "varType": 1
         },
         {
-            "id": "f12ac08b-e2dc-44fb-ae97-6e6a75b776f2",
+            "id": "16e2e0a3-1e59-45f8-bda5-01244d0c3834",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -160,30 +100,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": ".25",
-            "varName": "minAlpha",
-            "varType": 0
+            "value": "4",
+            "varName": "sizePerHeight",
+            "varType": 1
         },
         {
-            "id": "2c922da3-2543-416a-b33f-9984f6aff29a",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": [
-                "spr_slimeBlue",
-                "spr_slimeGreen",
-                "spr_slimeRed"
-            ],
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 2,
-            "value": "spr_slimeBlue",
-            "varName": "sprite",
-            "varType": 6
-        },
-        {
-            "id": "10b92fe1-a725-466f-bbfb-fdb006b0276e",
+            "id": "a42d6907-c613-476c-b90e-0cffb8d37aba",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -193,8 +115,8 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "selected",
-            "varType": 3
+            "varName": "height",
+            "varType": 0
         }
     ],
     "solid": false,
