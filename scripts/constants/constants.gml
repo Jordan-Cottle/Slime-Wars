@@ -2,7 +2,7 @@
 #macro gridStep 16
 
 // maximum height for stackable objects
-#macro maxHeight 8
+#macro maxHeight 32
 
 // minimum alpha value for objects
 #macro minAlpha 0.25

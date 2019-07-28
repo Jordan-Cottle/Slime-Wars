@@ -9,7 +9,11 @@ if(slime){
 }
 
 if(progress >= cost){
+	var c = color;
 	instance_change(obj_finished, true);
+	// color information needs to be set on 'new' structure
+	color = c;
+	drawColor = selectColor(c);
 }else{
 	// scale transparency up with progress of construction
 	alpha = max((progress / cost) - minAlpha, 0) + minAlpha;	
