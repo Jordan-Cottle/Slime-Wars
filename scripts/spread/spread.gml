@@ -12,7 +12,8 @@ if (slime){
 		slime.size--;
 	}
 }else{
-	if (size > 2 and height >= heightAt(targetX, targetY)){
+	var reach = height + heightAt(x, y)
+	if (size > 2 and reach >= heightAt(targetX, targetY)){
 		spawnSlime(targetX, targetY, color);
 		size--;
 	}

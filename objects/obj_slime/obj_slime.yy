@@ -5,26 +5,6 @@
     "name": "obj_slime",
     "eventList": [
         {
-            "id": "2b54f30e-bf25-4f0d-9899-03737ff8a7f5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
-        },
-        {
-            "id": "12fbf63c-f5b0-4ad0-9c16-4e654bdd5d31",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
-        },
-        {
             "id": "2f69e33f-3600-43e3-ba77-38cfe1918475",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -35,12 +15,22 @@
             "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
         },
         {
-            "id": "77834da8-0f09-4f38-9028-66b29ba77c15",
+            "id": "52934997-d0cc-498e-a268-57a9a0046b8e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
+        },
+        {
+            "id": "0cb36288-8ce7-439b-bf6b-f5def416cab4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
             "eventtype": 3,
             "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
         }
@@ -86,7 +76,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "1",
             "varName": "size",
             "varType": 1
         },
@@ -116,10 +106,10 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "height",
-            "varType": 0
+            "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "f45ab870-ef58-4ce1-ad99-dbffd8d63381",
+    "spriteId": "34cfa023-4c2d-4155-aa34-ad2473242671",
     "visible": true
 }

@@ -1,6 +1,4 @@
-/// @description Select color
-
-var drawColor;
+/// @description Select drawColor 
 switch(color){
 	case "red":
 		drawColor = c_red;
@@ -12,5 +10,3 @@ switch(color){
 		drawColor = c_green;
 		break;
 }
-
-draw_sprite_ext(sprite_index, image_index, x, y, 1, 1, direction, drawColor, 1);
