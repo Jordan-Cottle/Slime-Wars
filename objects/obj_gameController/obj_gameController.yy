@@ -33,6 +33,36 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "f268df98-3aa5-4e4e-ad29-f827af06a8d4"
+        },
+        {
+            "id": "575da157-65cb-4cca-be9a-b084dece9e0e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "f268df98-3aa5-4e4e-ad29-f827af06a8d4"
+        },
+        {
+            "id": "ebdb76b6-c441-4429-89c6-d6ceafc2000d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "f268df98-3aa5-4e4e-ad29-f827af06a8d4"
+        },
+        {
+            "id": "e56423d9-dd60-4add-84b0-e303bc37bb56",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 7,
+            "m_owner": "f268df98-3aa5-4e4e-ad29-f827af06a8d4"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -65,6 +95,34 @@
             "value": "0",
             "varName": "colorSelection",
             "varType": 1
+        },
+        {
+            "id": "67fe635b-4289-4f8b-81b3-2646296f57dd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "victory",
+            "varType": 3
+        },
+        {
+            "id": "fc9a00e5-8bf3-4c2f-a853-37d4def10925",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "defeat",
+            "varType": 3
         }
     ],
     "solid": false,
