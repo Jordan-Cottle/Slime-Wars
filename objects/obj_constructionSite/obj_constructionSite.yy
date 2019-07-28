@@ -47,20 +47,6 @@
             "varType": 1
         },
         {
-            "id": "b89b3aa3-147b-4544-8016-3236e5a18b29",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "progress",
-            "varType": 1
-        },
-        {
             "id": "b85f7faf-7e87-4300-858e-e1e9f4123a88",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -73,6 +59,20 @@
             "value": "0",
             "varName": "obj_finished",
             "varType": 5
+        },
+        {
+            "id": "b89b3aa3-147b-4544-8016-3236e5a18b29",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "progress",
+            "varType": 1
         }
     ],
     "solid": false,

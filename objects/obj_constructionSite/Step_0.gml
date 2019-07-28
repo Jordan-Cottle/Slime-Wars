@@ -3,7 +3,7 @@
 var slime = findAdjacent(obj_slime, noone);
 
 if(slime){
-	var newProgress = max(cost - progress, slime.size/2);
+	var newProgress = min(cost - progress, slime.size/2);
 	progress += newProgress;
 	slime.size -= newProgress;
 }
