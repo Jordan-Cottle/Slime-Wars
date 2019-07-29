@@ -1,0 +1,5 @@
+Resources used:
+
+All sprites are original and created using the Game Maker sprite editor
+
+Background music by Corey Clay
