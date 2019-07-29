@@ -38,7 +38,7 @@ Instructions:
     - When a construction site has absorbed all the slime it needs, the sprite will change to match the other spawners and begin to function like a spawner.
 
 Cheats:
-    - While there are no cheat codes yet, the player is also not restricted to where they can construct buildings either.
+    - While there are no cheat codes yet, the player is also not yet subject to many restrictions intended for the final version of the game. These unrestricted actions can be used in a variety of powerful ways that act as 'cheats'.
 
     - Spawners can currently be stacked on top of each other. This will be removed and potentially replaced with an upgrade mechanic in the final version
 
