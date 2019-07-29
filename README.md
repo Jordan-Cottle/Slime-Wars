@@ -1,13 +1,13 @@
 # Slime-Wars
-Intro to Game Design Project Two
+A territorial conflict inspired by Knuckle Cracker's Creeper World.
 
-Created by:
+## Created by:
 *   Jordan Cottle (Programmer)
 *   Corey Clay (Designer)
 *   Andre Rapaso (Artist)
 *   avid Messenger (Producer)
 
-Description:
+## Description:
 *   Different colors of slime will spawn at spawners scattered throughout the map
 
 *	Different colors of terrain correspond to different heights
@@ -26,7 +26,7 @@ Description:
 
 *	Player plays as the green slime
 
-Instructions:
+## Instructions:
 *	New spawners can be constructed by clicking on the space you want to place the spawner on. 
 
 *	When a new spawner is placed it will be in the form of a construction site.
@@ -37,7 +37,7 @@ Instructions:
 
 *	When a construction site has absorbed all the slime it needs, the sprite will change to match the other spawners and begin to function like a spawner.
 
-Cheats:
+## Cheats:
 *	While there are no cheat codes yet, the player is also not yet subject to many restrictions intended for the final version of the game. These unrestricted actions can be used in a variety of powerful ways that act as 'cheats'.
 
 *	Spawners can currently be stacked on top of each other. This will be removed and potentially replaced with an upgrade mechanic in the final version
