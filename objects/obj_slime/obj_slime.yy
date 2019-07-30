@@ -33,6 +33,26 @@
             "enumb": 2,
             "eventtype": 3,
             "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
+        },
+        {
+            "id": "683bc2b3-1a72-40fc-bc20-b62f7d66d0b8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
+        },
+        {
+            "id": "8c93bda8-164d-4d4f-9511-a056bbe575ae",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "e5fb95b9-951c-46f3-806d-ee9e246f3f92"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -90,7 +110,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "8",
             "varName": "sizePerHeight",
             "varType": 1
         },

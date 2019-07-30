@@ -10,7 +10,7 @@ var tile = tilemap_get_at_pixel(layerMap, argument0, argument1);
 
 // if tile present at space, return it's height value
 if(tile){
-	return tile*2;	
+	return tile;	
 }
 
 // nothing in space, no height
