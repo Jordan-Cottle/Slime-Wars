@@ -25,7 +25,7 @@ if (slime){
 }else{
 	var reach = height + heightAt(x, y)
 	if (size > 1 and reach >= heightAt(targetX, targetY)){
-		spawnSlime(targetX, targetY, color);
+		spawnSlime(targetX, targetY, color, 1);
 		size--;
 	}
 }

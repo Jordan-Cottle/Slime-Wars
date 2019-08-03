@@ -55,7 +55,7 @@
             "rangeEnabled": false,
             "rangeMax": 10,
             "rangeMin": 0,
-            "resourceFilter": 1023,
+            "resourceFilter": 256,
             "value": "0",
             "varName": "obj_finished",
             "varType": 5

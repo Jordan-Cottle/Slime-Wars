@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "103ac60a-de3a-44bd-82e2-74647fa15a85",
+            "Value": {
+                "id": "a39f171c-a070-4b98-9470-43f6836fe2ed",
+                "resourcePath": "objects\\obj_towerConstructionSite\\obj_towerConstructionSite.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "137569c7-5e08-4c48-90f8-3cf460e7b528",
             "Value": {
                 "id": "30e83ce2-6bb6-43bf-baea-f303b2712802",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "34e8fcc8-1c6d-4959-a0f3-6d5d2949dbe4",
+            "Value": {
+                "id": "815435fd-302b-44d7-a1b2-52e723cbde41",
+                "resourcePath": "objects\\obj_tower\\obj_tower.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3bc56aa2-2698-45b1-bb21-a8985ae2f635",
             "Value": {
                 "id": "e32b74ad-1a01-48a3-a2ff-e3659ca58b71",
@@ -164,6 +180,14 @@
                 "id": "637979c0-a6a0-42ed-a0c3-44b6b0c1fa9c",
                 "resourcePath": "scripts\\spread\\spread.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4327881c-a2c8-4f99-994b-f25adacf72c9",
+            "Value": {
+                "id": "cf3d2e13-8380-4fee-bd56-5c8e817c3a68",
+                "resourcePath": "sprites\\spr_towerTurret\\spr_towerTurret.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -228,6 +252,14 @@
                 "id": "739d1748-9f3b-453a-b7ce-72343c79ae60",
                 "resourcePath": "scripts\\findAdjacent\\findAdjacent.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6e599000-c867-44b1-a95d-c3317bdd23ed",
+            "Value": {
+                "id": "ca32dedd-bb63-43dc-9128-ee840347b93c",
+                "resourcePath": "objects\\obj_target\\obj_target.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -327,6 +359,14 @@
             }
         },
         {
+            "Key": "93ee9c24-5e68-4aeb-a559-06142bd15c1c",
+            "Value": {
+                "id": "7366010c-4409-4636-9aff-f8d4474554eb",
+                "resourcePath": "sprites\\spr_target\\spr_target.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "991a4a9f-8123-4c3a-9226-f005c2a58a23",
             "Value": {
                 "id": "8b038ada-3abe-49f1-be6b-d988b47e03b0",
@@ -399,6 +439,22 @@
             }
         },
         {
+            "Key": "b03062c4-5231-432b-bf92-c517f8d939a7",
+            "Value": {
+                "id": "341e15a8-cdf0-4877-88fd-d2f7e53c1718",
+                "resourcePath": "objects\\obj_turretShot\\obj_turretShot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b44d6299-d3e0-4c16-8bfa-cb8801170b44",
+            "Value": {
+                "id": "b0a1985f-7b19-4e0b-a9e4-a4d62f3f5282",
+                "resourcePath": "sprites\\spr_turretShot\\spr_turretShot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b5bb9c3f-c20b-4908-b25d-2f8dff5cc40c",
             "Value": {
                 "id": "25261e26-17be-4b48-b755-1e9b8dac92fa",
@@ -447,11 +503,27 @@
             }
         },
         {
+            "Key": "ce4e76fe-63d9-43ee-9569-f8671c53fcb6",
+            "Value": {
+                "id": "9ab9a90a-8c7a-4c41-ab31-0d3ea473fcd5",
+                "resourcePath": "sprites\\spr_towerBase\\spr_towerBase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ce5a870d-fbe2-4af1-b0ad-c93b6a7affce",
             "Value": {
                 "id": "3f93d2ac-9c7d-4791-b8ba-b250a4a794c2",
                 "resourcePath": "views\\ce5a870d-fbe2-4af1-b0ad-c93b6a7affce.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d1035b0f-1366-4091-acf7-379496e9401e",
+            "Value": {
+                "id": "d769a910-cf04-4aaf-961e-1fabfd9f001c",
+                "resourcePath": "rooms\\rm_towerTest\\rm_towerTest.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
