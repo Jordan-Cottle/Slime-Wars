@@ -5,16 +5,6 @@
     "name": "obj_redTower",
     "eventList": [
         {
-            "id": "926c2f20-7d0d-4342-af6d-42ee6f8ecf5b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "6a49bfed-acf0-4971-88a0-d1e2084be38c"
-        },
-        {
             "id": "ad6a3bdc-9c9a-4b7f-a9bc-24263512444a",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -23,43 +13,13 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "6a49bfed-acf0-4971-88a0-d1e2084be38c"
-        },
-        {
-            "id": "81a4b708-218b-481b-b7dd-a5134fb08692",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "6a49bfed-acf0-4971-88a0-d1e2084be38c"
-        },
-        {
-            "id": "541a7cdd-2e99-47d4-8dc6-1de674345e38",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "6a49bfed-acf0-4971-88a0-d1e2084be38c"
-        },
-        {
-            "id": "82ffd8ec-0bfe-4d20-91da-2d7750a103f7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "6a49bfed-acf0-4971-88a0-d1e2084be38c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         
     ],
-    "parentObjectId": "640948ec-b26e-400b-b5ec-c45b268b8037",
+    "parentObjectId": "34e8fcc8-1c6d-4959-a0f3-6d5d2949dbe4",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -112,7 +72,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "128",
+            "value": "towerRange",
             "varName": "maxRange",
             "varType": 0
         },

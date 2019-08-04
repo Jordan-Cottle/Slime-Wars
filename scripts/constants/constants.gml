@@ -18,3 +18,7 @@
 
 // maximum slimer per tick for building
 #macro maxBuild 5
+
+#macro wallHeight 3
+
+#macro towerRange 300

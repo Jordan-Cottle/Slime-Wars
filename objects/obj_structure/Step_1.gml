@@ -11,7 +11,7 @@ if (hp <= 0) {
 
 var slime = findAdjacent(obj_slime, noone);
 if(slime){
-	var impact = max(maxHp - hp, slime.size/2);
+	var impact = min(hp, slime.size/2);
 	if(repairing and slime.color = self.color){
 		hp += impact;
 		slime.size -= impact;
