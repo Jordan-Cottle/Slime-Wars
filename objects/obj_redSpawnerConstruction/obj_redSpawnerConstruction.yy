@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_redSpawnerConstruction",
     "eventList": [
-        
+        {
+            "id": "08cb4e6f-c23c-48b8-8c4f-fcf16ac24b19",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "edd467cc-b5c8-4166-8e76-b44c60c249ce"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

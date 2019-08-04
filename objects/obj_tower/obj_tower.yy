@@ -63,10 +63,37 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "34e8fcc8-1c6d-4959-a0f3-6d5d2949dbe4"
+        },
+        {
+            "id": "fb879810-6ef2-4ddd-b45e-1618e6417cc5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "34e8fcc8-1c6d-4959-a0f3-6d5d2949dbe4"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "overriddenProperties": [
+        {
+            "id": "04559604-6c71-4b04-af32-2a158512afbc",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "640948ec-b26e-400b-b5ec-c45b268b8037",
+            "propertyId": "deb99f79-aca9-4ca5-af16-70bec63a2f9e",
+            "value": "50"
+        },
+        {
+            "id": "ba724005-6154-4d03-815c-b114628de1a1",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "640948ec-b26e-400b-b5ec-c45b268b8037",
+            "propertyId": "52900292-6cde-4703-ac79-a77ef4731749",
+            "value": "50"
+        }
+    ],
     "parentObjectId": "640948ec-b26e-400b-b5ec-c45b268b8037",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -82,20 +109,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        {
-            "id": "05d5b86b-b6a1-413f-acc0-dbdbe3fb33ff",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "towerRange",
-            "varName": "maxRange",
-            "varType": 0
-        },
         {
             "id": "a401baf0-9ed0-40f7-a956-1240aee0d64c",
             "modelName": "GMObjectProperty",

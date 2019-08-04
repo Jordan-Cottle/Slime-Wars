@@ -1,26 +1,22 @@
 /// @description Check for win condition
-var redCount = 0;
-var greenCount = 0;
-var blueCount = 0;
+var playerSlime = 0;
+var enemySlime = 0;
 
 // count all slimes
 with(obj_slime){
 	switch(color){
-		case "red":
-			redCount++;
+		case playerColor:
+			playerSlime++;
 			break;
-		case "blue":
-			blueCount++;
-			break;
-		case "green":
-			greenCount++;
+		default:
+			enemySlime++;
 			break;
 	}
 }
 
-if(greenCount <= 0){
+if(playerSlime <= 0){
 	defeat = true;
-} else if(redCount <= 0 and blueCount <= 0){
+} else if(enemySlime <= 0){
 	victory = true;
 }else{
 	victory = false;

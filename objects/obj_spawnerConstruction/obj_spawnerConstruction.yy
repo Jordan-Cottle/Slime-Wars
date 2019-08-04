@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_spawnerConstruction",
     "eventList": [
-        {
-            "id": "45fcd2a9-929b-4d99-a11d-ba5a393f48bd",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ade91f35-1552-4d29-b67a-868ee5931be6"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
