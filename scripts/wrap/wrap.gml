@@ -5,9 +5,9 @@ var minimum = argument1;
 var maximum = argument2;
 
 if(value > maximum){
-	value = minimum;	
+	value = (value - (maximum+1)) + minimum;	
 }else if(value < minimum){
-	value = maximum;	
+	value = (value - (minimum-1)) + maximum;	
 }
 
 return value;

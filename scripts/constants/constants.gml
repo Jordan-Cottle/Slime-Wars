@@ -21,4 +21,5 @@
 
 // maximum range for player towers
 #macro towerRange 300
+
 #macro playerColor "green"
