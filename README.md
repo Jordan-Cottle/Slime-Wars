@@ -5,10 +5,10 @@ A territorial conflict inspired by Knuckle Cracker's Creeper World.
 *   Jordan Cottle (Programmer)
 *   Corey Clay (Designer)
 *   Andre Rapaso (Artist)
-*   avid Messenger (Producer)
+*   David Messenger (Producer)
 
 ## Description:
-*   Different colors of slime will spawn at spawners scattered throughout the map
+*   	Different colors of slime will spawn at spawners scattered throughout the map
 
 *	Different colors of terrain correspond to different heights
 
@@ -27,21 +27,40 @@ A territorial conflict inspired by Knuckle Cracker's Creeper World.
 *	Player plays as the green slime
 
 ## Instructions:
-*	New spawners can be constructed by clicking on the space you want to place the spawner on. 
+*	Selecting #1 on the keyboard is an empty cursor, to avoid placing objects by accident
 
-*	When a new spawner is placed it will be in the form of a construction site.
+*	New spawners can be constructed by selecting #2 on the keyboard and clicking on the space you want to place the spawner on. 
+
+*	Slime launchers can be constructed by slecting #3 on the keyboard and clicking on the space you want to place the launchger on.
+
+*	Slime launchers can be aimed by clicking on them again once built, then selecting a target in the area outlined by a circle. They will absorb and launch slime to this area as long as they have ammo to absorb.
+
+*	Walls can be constructed by selecting #4 on the keybard and clicking on the space you want the wall to be built.
+
+*	Walls help block enemy slime, and are cheap, but can be overwhelmed!
+
+*	When a new objects are placed it will be in the form of a construction site.
 
 *	Construction sites absorb nearby slime of the same color until the cost of the structure is met.
 
 *	The progress of the construction can be seen by how transparent the site is. The more opaque the site is, the more progress that has been made
 
-*	When a construction site has absorbed all the slime it needs, the sprite will change to match the other spawners and begin to function like a spawner.
+*	When a construction site has absorbed all the slime it needs, the sprite will change to match the other objects and begin to function.
 
-## Cheats:
-*	While there are no cheat codes yet, the player is also not yet subject to many restrictions intended for the final version of the game. These unrestricted actions can be used in a variety of powerful ways that act as 'cheats'.
+## Testing Features (AKA: Cheats):
+*	You can click on enemy launchers and re-aim them. 
 
-*	Spawners can currently be stacked on top of each other. This will be removed and potentially replaced with an upgrade mechanic in the final version
+*	Ctrl-Shift-C Activates Testing Mode (or de-activates if already on) While active, you can:
 
-*	Spawners can currently be placed in locations not covered by the player's slime. In the final version construction will be limited to tiles covered in a player's slime. This 'feature' can be used to jump up to higher levels of terrain, as slime can construct a spawner in an adjacent location. Then the spawner creates slime on the higher elevation that will then 'pull' the other slime up onto the same level. This general mechanic of hopping onto higher terrain will be replaced by a more intentional system in the final version.
+*	Up Arrow on keyboard increases your spawners rate of production
 
-*	Since spawners can be placed in any location, they can also be placed in territory covered in enemy slime. Since the construction site is a structure with hp, the enemy slime will be consumed in destroying it. This can be used as a 'cheat' to remotely reduce the volume of enemy slime.
+*	Down arrow decreases enemy production rate
+
+*	Right click adds slime to the click location, of whatever color is already there. (yes, you add enemy slime if you click on it) You add green slime to empty tiles.
+
+*	Left click removes slime (Any slime, even yours.)
+
+*	Press R to restart the room, wihthout triggering a win or a loss.
+
+*	Press N to go to the next level without having to finish the current one.
+ 
