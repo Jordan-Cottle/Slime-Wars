@@ -21,3 +21,15 @@ if(mouse_check_button(mb_left)){
 		spawnSlime(snapToGrid(mouse_x),snapToGrid(mouse_y), playerColor, 25);
 	}
 }
+
+if(keyboard_check(ord("R"))){
+	room_restart();	
+}
+
+if(keyboard_check(ord("N"))){
+	if(room == room_last){
+		room_goto(room_first);
+	}else{
+		room_goto_next();	
+	}
+}
