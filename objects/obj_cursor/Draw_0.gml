@@ -3,8 +3,6 @@
 
 
 switch(mode){
-	case cursorMode.select:
-		break; // draw nothing extra
 	case cursorMode.buildSpawner:
 		draw_sprite_ext(spr_spawner, 0, x, y, image_xscale, image_yscale, direction, drawColor, previewAlpha);
 		draw_text(x, y, global.spawnerCost);
@@ -15,6 +13,10 @@ switch(mode){
 	case cursorMode.buildWall:
 		draw_sprite_ext(spr_wall, 0, x, y, image_xscale, image_yscale, direction, drawColor, previewAlpha);
 		break;
+}
+
+if(mode != cursorMode.select and !canBuild){
+	draw_sprite(spr_cannotBuild, 0, x, y);
 }
 
 // Inherit the parent event

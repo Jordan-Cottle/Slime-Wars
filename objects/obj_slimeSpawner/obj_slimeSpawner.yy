@@ -55,7 +55,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "8e37d6fd-3521-41c5-ba73-33def615d818",
+            "id": "ec3a8e47-0bd4-49db-a091-e3aff480ca5a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -64,23 +64,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "16",
-            "varName": "spawnRate",
+            "value": "0",
+            "varName": "bonusSlime",
             "varType": 1
-        },
-        {
-            "id": "181f15ec-7040-4b32-b456-501843e6b322",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "spawnInterval",
-            "varType": 0
         }
     ],
     "solid": false,

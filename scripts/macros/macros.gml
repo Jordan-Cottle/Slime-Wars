@@ -17,7 +17,9 @@
 #macro maxBuild 5
 
 // how much walls increase the terrain height
-#macro wallHeight 3
+#macro wallHeight 5
+
+#macro sizePerHeight 10
 
 // maximum range for player towers
 #macro towerRange 200
@@ -25,3 +27,7 @@
 #macro playerColor "green"
 
 #macro spawnerCostIncrement 25
+#macro spawnRate 8
+#macro spawnInterval 1
+
+#macro difficultyInterval 15

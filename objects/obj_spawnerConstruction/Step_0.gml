@@ -9,6 +9,9 @@ if(slime and slime.color == self.color){
 
 if(progress >= cost){
 	instance_change(obj_finished, false);
+	alarm[0] = spawnInterval * room_speed;
+	bonusSlime = 0;
+	
 }else{
 	// scale transparency up with progress of construction
 	alpha = max((progress / cost) - minAlpha, 0) + minAlpha;	
