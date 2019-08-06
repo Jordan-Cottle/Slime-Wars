@@ -90,7 +90,7 @@
             "Key": "1e2f50d9-3fc5-4c49-8746-90684d926e66",
             "Value": {
                 "id": "7d1f02d0-930d-426d-a4fd-ac02a881ddc2",
-                "resourcePath": "rooms\\rm_level1\\rm_level1.yy",
+                "resourcePath": "rooms\\rm_level3\\rm_level3.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -263,14 +263,6 @@
             }
         },
         {
-            "Key": "4fc5ba5b-0f1d-46d6-bbba-f1bdc53c6afa",
-            "Value": {
-                "id": "dacca037-0e0a-4243-a236-d293c6add79e",
-                "resourcePath": "rooms\\rm_level5\\rm_level5.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "517d9bf2-b7d1-4a4b-a1ac-b19cbc673d75",
             "Value": {
                 "id": "5bef3dca-d040-4adf-9ed3-a49a4ded7fc5",
@@ -282,7 +274,7 @@
             "Key": "5218bee9-90f6-4668-81ca-47cc940bb4e3",
             "Value": {
                 "id": "8d2c8f0b-b9fe-4c6f-9742-c5f86a2ac509",
-                "resourcePath": "rooms\\rm_level2\\rm_level2.yy",
+                "resourcePath": "rooms\\rm_level1\\rm_level1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -346,7 +338,7 @@
             "Key": "6a7f56d6-e388-45e6-bf50-e8b24e861c7c",
             "Value": {
                 "id": "7f9f3a7e-a57c-4dca-9812-d5b3041d429a",
-                "resourcePath": "rooms\\rm_level3\\rm_level3.yy",
+                "resourcePath": "rooms\\rm_level2\\rm_level2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -508,14 +500,6 @@
                 "id": "5cc629b8-fcef-4561-a659-a286c3e51f99",
                 "resourcePath": "views\\8e6d9d30-0df4-438e-b5c1-e004a70b145c.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "90346c08-c6f9-4b16-91f3-efd31065d8b5",
-            "Value": {
-                "id": "6e1a3bf3-683d-4849-bf7f-c7841c8f40e2",
-                "resourcePath": "rooms\\rm_level4\\rm_level4.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

@@ -1,4 +1,4 @@
-/// @description Cheats for adding and removing slime
+/// @description Cheats
 
 if(keyboard_check(vk_shift) and keyboard_check(vk_control) and keyboard_check_pressed(ord("C"))){
 	active = !active;	
@@ -22,14 +22,10 @@ if(mouse_check_button(mb_left)){
 	}
 }
 
-if(keyboard_check(ord("R"))){
+if(keyboard_check_pressed(ord("R"))){
 	room_restart();	
 }
 
-if(keyboard_check(ord("N"))){
-	if(room == room_last){
-		room_goto(room_first);
-	}else{
-		room_goto_next();	
-	}
+if(keyboard_check_pressed(ord("N"))){
+	room = wrap(room+1, room_first, room_last);
 }
