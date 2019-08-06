@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "8170892f-1e8c-40ca-8752-327e369af702",
+            "Value": {
+                "id": "22fd04a2-c650-47b8-9714-f16ee696a0f1",
+                "resourcePath": "fonts\\fnt_spawnerProgress\\fnt_spawnerProgress.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "83d67a59-d9ef-408d-b959-db8497b2f8d7",
             "Value": {
                 "id": "537743c3-0d30-4bb4-9cf4-a2af7cd1d873",
@@ -508,6 +516,14 @@
                 "id": "6e1a3bf3-683d-4849-bf7f-c7841c8f40e2",
                 "resourcePath": "rooms\\rm_level4\\rm_level4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "915724a9-60e8-4aed-a9c3-23a1c1b0067e",
+            "Value": {
+                "id": "65ac6395-684d-47cf-b384-8a7af1d669e3",
+                "resourcePath": "scripts\\updateGlobalSpawnerCost\\updateGlobalSpawnerCost.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -770,7 +786,7 @@
             "Key": "ec2a83d9-2208-489d-a252-4ee99f200353",
             "Value": {
                 "id": "4a9e15d0-4807-4591-9ad9-3d6e6a95478b",
-                "resourcePath": "scripts\\constants\\constants.yy",
+                "resourcePath": "scripts\\macros\\macros.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -842,7 +858,8 @@
         "4b6ed3d4-fea3-4d48-8556-dab7cb19a88d",
         "73efda50-5590-4155-b938-4d8b30341309",
         "8c9cc569-4bad-4b19-8fc3-d2a2f2677b67",
-        "ca6d6692-5477-42b0-b323-3d73a1b3e8fb"
+        "ca6d6692-5477-42b0-b323-3d73a1b3e8fb",
+        "915724a9-60e8-4aed-a9c3-23a1c1b0067e"
     ],
     "tutorial": ""
 }

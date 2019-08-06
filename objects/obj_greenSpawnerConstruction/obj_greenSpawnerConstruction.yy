@@ -17,7 +17,7 @@
             "value": "\"green\""
         }
     ],
-    "parentObjectId": "ade91f35-1552-4d29-b67a-868ee5931be6",
+    "parentObjectId": "edd467cc-b5c8-4166-8e76-b44c60c249ce",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

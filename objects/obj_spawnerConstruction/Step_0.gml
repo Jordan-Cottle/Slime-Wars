@@ -1,5 +1,4 @@
-/// @description Look for slimes to construct self
-
+/// Look for slimes to construct self
 var slime = findAdjacent(obj_slime, noone);
 
 if(slime and slime.color == self.color){
@@ -9,11 +8,7 @@ if(slime and slime.color == self.color){
 }
 
 if(progress >= cost){
-	var c = color;
-	instance_change(obj_finished, true);
-	// color information needs to be set on 'new' structure
-	color = c;
-	drawColor = selectColor(c);
+	instance_change(obj_finished, false);
 }else{
 	// scale transparency up with progress of construction
 	alpha = max((progress / cost) - minAlpha, 0) + minAlpha;	

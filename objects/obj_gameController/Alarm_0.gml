@@ -15,7 +15,14 @@ with(obj_slime){
 }
 
 if(playerSlime <= 0){
-	defeat = true;
+	with(obj_slimeSpawner){
+		if(color == playerColor){
+			playerSlime++;	
+		}
+	}
+	if(playerSlime <= 0){
+		defeat = true;	
+	}
 } else if(enemySlime <= 0){
 	victory = true;
 }else{

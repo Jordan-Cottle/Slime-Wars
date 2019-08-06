@@ -1,7 +1,8 @@
 /// @description Draw base, then draw top in direction
 
 if(selected){
-	alpha = .5;	
+	alpha = .5;
+	draw_circle(x, y, towerRange, true);
 }else{
 	alpha = 1;
 }
