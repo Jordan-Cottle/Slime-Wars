@@ -17,3 +17,4 @@ draw_set_font(fnt_spawnerProgress);
 
 // wait 10 seconds before checking victory condition
 alarm[0] = room_speed * 10;
+alarm[1] = room_speed * difficultyInterval;

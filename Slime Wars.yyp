@@ -42,7 +42,7 @@
             "Key": "0149f3ab-45ac-408d-8527-e81b0f52d241",
             "Value": {
                 "id": "b6799676-deed-4fd4-a82f-a855669a99eb",
-                "resourcePath": "objects\\obj_simulationController\\obj_simulationController.yy",
+                "resourcePath": "objects\\obj_cheatController\\obj_cheatController.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -708,14 +708,6 @@
                 "id": "3f93d2ac-9c7d-4791-b8ba-b250a4a794c2",
                 "resourcePath": "views\\ce5a870d-fbe2-4af1-b0ad-c93b6a7affce.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d1035b0f-1366-4091-acf7-379496e9401e",
-            "Value": {
-                "id": "d769a910-cf04-4aaf-961e-1fabfd9f001c",
-                "resourcePath": "rooms\\rm_towerTest\\rm_towerTest.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

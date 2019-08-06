@@ -33,7 +33,7 @@ if(collision_circle(x, y, 1, obj_structure, false, true)){
 	canBuild = false;	
 }
 
-// spawners require a larger check circle check
+// spawners require a larger circle check
 if(mode == cursorMode.buildSpawner and collision_circle(x, y, 10, obj_structure, false, true)){
 	canBuild = false;
 }
