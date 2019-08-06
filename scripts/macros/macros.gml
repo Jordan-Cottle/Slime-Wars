@@ -20,6 +20,8 @@
 #macro wallHeight 3
 
 // maximum range for player towers
-#macro towerRange 300
+#macro towerRange 200
 
 #macro playerColor "green"
+
+#macro spawnerCostIncrement 25

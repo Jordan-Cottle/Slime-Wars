@@ -1,4 +1,4 @@
-/// @description Follow mouse
+/// @description Follow mouse, handle player input
 
 x = snapToGrid(mouse_x);
 y = snapToGrid(mouse_y);
@@ -26,19 +26,24 @@ if (keyboard_check_pressed(vk_escape) or keyboard_check_pressed(ord("1"))){
 var slime = instance_place(x, y, obj_slime);
 
 onSlime = slime and slime.color == self.color;
+canBuild = onSlime;
 
-// only allow building on player's slime
-if(!onSlime){
-	return; 	
+// can't build on top of another structure
+if(collision_circle(x, y, 1, obj_structure, false, true)){
+	canBuild = false;	
 }
 
-// perform action when mouse is clicked
-if(mouse_check_button_pressed(mb_left)){
+// spawners require a larger check circle check
+if(mode == cursorMode.buildSpawner and collision_circle(x, y, 10, obj_structure, false, true)){
+	canBuild = false;
+}
+
+// build structure when mouse is clicked
+if(mouse_check_button_pressed(mb_left) and canBuild){
 	switch(mode){
-		case cursorMode.select:
-			break; // do nothing (towers handle their own selection)
 		case cursorMode.buildSpawner:
 			startConstruction(x, y, obj_spawnerConstruction, color);
+			updateGlobalSpawnerCost(spawnerCostIncrement);
 			break;
 		case cursorMode.buildTurret:
 			startConstruction(x, y, obj_towerConstructionSite, color);

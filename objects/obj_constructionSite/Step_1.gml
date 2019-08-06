@@ -8,7 +8,7 @@ if (hp <= 0) {
 
 var slime = findAdjacent(obj_slime, noone);
 if(slime and slime.color != self.color){
-	var impact = min(hp, slime.size/2);
+	var impact = min(hp, floor(slime.size/2));
 	progress -= impact;
 	slime.size -= impact;
 }

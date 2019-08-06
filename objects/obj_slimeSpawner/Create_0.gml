@@ -4,4 +4,3 @@ sprite_index = spr_spawner;
 
 // Inherit the parent event
 event_inherited();
-

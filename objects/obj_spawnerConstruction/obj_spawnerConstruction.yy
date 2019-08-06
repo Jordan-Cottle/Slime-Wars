@@ -4,7 +4,46 @@
     "mvc": "1.0",
     "name": "obj_spawnerConstruction",
     "eventList": [
-        
+        {
+            "id": "06f75ae5-3df6-4fef-9b64-6f788d905d0b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ade91f35-1552-4d29-b67a-868ee5931be6"
+        },
+        {
+            "id": "2d80e565-d4b2-4df9-8448-fa3d65414145",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "ade91f35-1552-4d29-b67a-868ee5931be6"
+        },
+        {
+            "id": "98471103-cab6-418b-b91b-8329fce4147d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ade91f35-1552-4d29-b67a-868ee5931be6"
+        },
+        {
+            "id": "3b3f0177-96dc-47b7-995f-bfaa022ecefc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "ade91f35-1552-4d29-b67a-868ee5931be6"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -15,14 +54,6 @@
             "objectId": "ce29f52e-2c2a-4f7c-a4fe-51bafc71d263",
             "propertyId": "b85f7faf-7e87-4300-858e-e1e9f4123a88",
             "value": "obj_slimeSpawner"
-        },
-        {
-            "id": "ad771976-6551-4dcf-afd3-4675a5bf291b",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "ce29f52e-2c2a-4f7c-a4fe-51bafc71d263",
-            "propertyId": "c39bf37f-652a-46d4-a74c-bde0c408385d",
-            "value": "100"
         }
     ],
     "parentObjectId": "ce29f52e-2c2a-4f7c-a4fe-51bafc71d263",

@@ -13,7 +13,10 @@ var height = 0;
 
 // if tile present at space, return it's height value
 if(tile){
-	height = tile;	
+	height = tile*3;
+	if(height > maxHeight){
+		show_debug_message(height);	
+	}
 }
 
 if(!place_empty(xx, yy, obj_wall)){

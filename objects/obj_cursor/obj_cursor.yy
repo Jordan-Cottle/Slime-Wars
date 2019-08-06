@@ -88,6 +88,20 @@
             "value": "0",
             "varName": "onSlime",
             "varType": 3
+        },
+        {
+            "id": "82b9d83f-cea3-41a0-bbf5-f00f59490c6c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "canBuild",
+            "varType": 3
         }
     ],
     "solid": false,
